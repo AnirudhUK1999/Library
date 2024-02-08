@@ -1,0 +1,89 @@
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/Playfair-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: playfair;
+    /* background-image: url(../icons/image-old-library-dark-place-style-texturerich-layers_917048-927.svg) ;
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background-color: #1e292e;
+    color: #e0ebed;
+}
+
+input,button{
+    font-family: playfair;
+}
+button{
+    background-color: #7fa7b0;
+    color: #e0ebed;
+    border: none;
+    padding: 10px;
+}
+
+button.add,button.close{
+    background-color: #1e292e;
+    padding: 4px;
+}
+
+.container{
+    display: grid;
+    gap: 20px;
+}
+
+h1{
+    text-align: center;
+    /* color: aliceblue; */
+}
+
+.dummy-container{
+    display: grid;
+    justify-items: center;
+    /* background-color: #3d5761; */
+}
+
+.books-container{
+    border: solid violet 1px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 800px;
+    background-color: #7fa7b0;
+}
+
+.book-container{
+    border: solid black 1px;
+    display: grid;
+    padding: 10px;
+    gap: 4px;
+    /* width: 400px; */
+    justify-content: center;
+    /* align-content: center; */
+    /* align-self: center; */
+    background-color: #1e292e;
+}
+
+.author{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.additional-book{
+    display: grid;
+    /* border: solid black 2px; */
+    justify-items: center;
+}
